@@ -48,7 +48,7 @@ RUN apt-get install -y liblz4-dev
 ADD build.sh /src/build.sh
 
 # 编译viabtc
-RUN wget https://codeload.github.com/viabtc/viabtc_exchange_server/tar.gz/master -O /src/viabtc.tar.gz &&\
+RUN wget https://codeload.github.com/orangegrin/viabtc_exchange_server/tar.gz/master -O /src/viabtc.tar.gz &&\
  	tar xzvf /src/viabtc.tar.gz  &&\
  	rm -rf /src/viabtc.tar.gz &&\
  	mv viabtc_exchange_server-* viabtc &&\
