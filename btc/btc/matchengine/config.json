@@ -37,120 +37,30 @@
     },
     "assets": [
         {
-            "name": "BCH",
+            "name": "USDC",
             "prec_save": 20,
             "prec_show": 8
         }, {
-            "name": "BTC",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "LTC",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "ETH",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "ETC",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "ZEC",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "XMR",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "DSH",
+            "name": "CNYD",
             "prec_save": 12,
             "prec_show": 8
         }
     ],
     "markets": [
         {
-            "name": "BTCBCH",
+            "name": "CNYDUSDC",
             "stock": {
-                "name": "BTC",
+                "name": "CNYD",
                 "prec": 8
             },
             "money": {
-                "name": "BCH",
+                "name": "USDC",
                 "prec": 8
             },
-            "min_amount": "0.001"
-        }, {
-            "name": "LTCBCH",
-            "stock": {
-                "name": "LTC",
-                "prec": 8
-            },
-            "money": {
-                "name": "BCH",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "ETHBCH",
-            "stock": {
-                "name": "ETH",
-                "prec": 8
-            },
-            "money": {
-                "name": "BCH",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "ETCBCH",
-            "stock": {
-                "name": "ETC",
-                "prec": 8
-            },
-            "money": {
-                "name": "BCH",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "ZECBCH",
-            "stock": {
-                "name": "ZEC",
-                "prec": 8
-            },
-            "money": {
-                "name": "BCH",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "XMRBCH",
-            "stock": {
-                "name": "XMR",
-                "prec": 8
-            },
-            "money": {
-                "name": "BCH",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "DSHBCH",
-            "stock": {
-                "name": "DSH",
-                "prec": 8
-            },
-            "money": {
-                "name": "BCH",
-                "prec": 8
-            },
-            "min_amount": "0.001"
+            "min_amount": "0.01"
         }
     ],
-    "brokers": "kafka:9092",
+    "brokers": "127.0.0.1:9092",
     "slice_interval": 3600,
-    "slice_keeptime": 259200
+    "slice_keeptime": 259200 
 }
